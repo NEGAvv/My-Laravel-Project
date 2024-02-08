@@ -65,3 +65,74 @@
 2024-02-08 12:35:16.042 [info] > git ls-files --stage -- /home/negav/MyLaravelApp/resources/views/welcome.blade.php [23ms]
 2024-02-08 12:35:16.080 [info] > git ls-files --stage -- /home/negav/MyLaravelApp/resources/views/welcome.blade.php [2ms]
 2024-02-08 12:35:16.592 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-08 12:36:10.633 [info] > git add -A -- . [10981ms]
+2024-02-08 12:36:10.845 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [199ms]
+2024-02-08 12:36:10.845 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-02-08 12:36:10.860 [info] > git config --get-all user.name [2ms]
+2024-02-08 12:36:10.887 [info] No remotes found in the git config file.
+2024-02-08 12:36:10.888 [info] > git config --get commit.template [13ms]
+2024-02-08 12:36:10.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-08 12:36:10.889 [warning] No such branch: main.
+2024-02-08 12:36:10.923 [info] > git status -z -uall [23ms]
+2024-02-08 12:36:15.650 [info] > git config --get commit.template [18ms]
+2024-02-08 12:36:15.664 [info] No remotes found in the git config file.
+2024-02-08 12:36:15.666 [info] > git ls-files --stage -- /home/negav/MyLaravelApp/resources/views/welcome.blade.php [19ms]
+2024-02-08 12:36:15.676 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-02-08 12:36:15.676 [warning] No such branch: main.
+2024-02-08 12:36:15.689 [info] > git cat-file -s 5aca936783adb390878097144320216f02738c4c [14ms]
+2024-02-08 12:36:15.704 [info] > git status -z -uall [16ms]
+2024-02-08 12:36:16.321 [info] > git show --textconv :MyLaravelApp/resources/views/welcome.blade.php [4ms]
+2024-02-08 12:37:17.723 [info] No remotes found in the git config file.
+2024-02-08 12:37:17.725 [info] > git config --get commit.template [13ms]
+2024-02-08 12:37:17.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-08 12:37:17.726 [warning] No such branch: main.
+2024-02-08 12:37:17.752 [info] > git status -z -uall [17ms]
+2024-02-08 12:37:37.332 [info] > git config --get commit.template [2ms]
+2024-02-08 12:37:37.343 [info] No remotes found in the git config file.
+2024-02-08 12:37:37.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-08 12:37:37.346 [warning] No such branch: main.
+2024-02-08 12:37:37.378 [info] > git status -z -uall [21ms]
+2024-02-08 12:37:39.531 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [43ms]
+2024-02-08 12:37:39.546 [info] > git config --get commit.template [3ms]
+2024-02-08 12:37:39.572 [info] No remotes found in the git config file.
+2024-02-08 12:37:39.573 [info] > git config --get commit.template [12ms]
+2024-02-08 12:37:39.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-08 12:37:39.597 [info] > git status -z -uall [13ms]
+2024-02-08 12:37:39.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [4ms]
+2024-02-08 12:37:40.041 [info] > git config --local branch.main.vscode-merge-base [28ms]
+2024-02-08 12:37:40.041 [warning] git config failed: Failed to execute git
+2024-02-08 12:37:40.057 [info] > git config --get commit.template [15ms]
+2024-02-08 12:37:40.069 [info] No remotes found in the git config file.
+2024-02-08 12:37:40.070 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [15ms]
+2024-02-08 12:37:40.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-02-08 12:37:40.095 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2024-02-08 12:37:40.095 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-08 12:37:40.111 [info] > git status -z -uall [18ms]
+2024-02-08 12:37:40.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-08 12:37:40.205 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-08 12:37:40.205 [warning] git config failed: Failed to execute git
+2024-02-08 12:37:40.222 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-08 12:37:40.240 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-08 12:37:40.240 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-08 12:37:40.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-08 12:37:40.329 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-02-08 12:37:40.329 [warning] git config failed: Failed to execute git
+2024-02-08 12:37:40.353 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-08 12:37:40.375 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-08 12:37:40.375 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-08 12:37:40.716 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-08 12:37:40.896 [info] > git ls-files --stage -- /home/negav/MyLaravelApp/resources/views/welcome.blade.php [6ms]
+2024-02-08 12:37:40.911 [info] > git cat-file -s 5aca936783adb390878097144320216f02738c4c [2ms]
+2024-02-08 12:37:40.937 [info] > git show --textconv :MyLaravelApp/resources/views/welcome.blade.php [5ms]
